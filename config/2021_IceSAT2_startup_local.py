@@ -20,6 +20,7 @@ import imp
 
 import string
 
+# %%
 # my own libraries:
 #import m_general as M
 
@@ -34,7 +35,7 @@ def json_load(name, path, verbose=False):
         print('loaded from: ',full_name)
     return data
 
-mconfig=json_load('config_local','/Users/Shared/Projects/2021_IceSAT2_tracks/config/')
+mconfig=json_load('config_local','/Users/mhell/Projects/2023_ICESat2_waves/config/')
 
 # add project depenent libraries
 sys.path.append(mconfig['paths']['local_script'])
@@ -43,7 +44,7 @@ sys.path.append(mconfig['paths']['local_script'] +'/ICEsat2_SI_tools/')
 import m_colormanager_ph3 as M_color
 import m_tools_ph3 as MT
 import m_general_ph3 as M
-
+# %%
 #load colorscheme
 col=M_color.color(path=mconfig['paths']['analysis']+'../config/', name='color_def')
 

@@ -52,7 +52,6 @@ latR, lonR = [-67.2, -62], [140.0, 155.0]
 # init polygon opbjects 
 poly = sct.create_polygons(latR, lonR)
 
-
 # %% load ground track data in domain:
 #Gtrack = gpd.read_file(load_path_RGT + 'IS2_mission_points_NH_RGT_all.shp', mask=poly['shapely'])
 Gtrack = gpd.read_file(load_path_RGT + 'IS2_mission_points_SH_RGT_all.shp', mask=poly['shapely'])
@@ -67,11 +66,10 @@ geo_data = GeoData(geo_dataframe = Gtrack[::5],
     point_style={'radius': 0.1, 'color': 'red', 'fillOpacity': 0.1},
     name = 'rgt')
 m.add_layer(geo_data)
-m
 
 # %% plot the ground tracks in geographic location
 # Generate ATL06-type segments using the ATL03-native photon classification
-# Use the ocean classification for photons with a confidence parmeter to 2 or higher (low confidence or better)
+# Use the ocean classification for photons with a confidence parameter to 2 or higher (low confidence or better)
 
 params={'srt': 1,  # Ocean classification
  'len': 25,        # 10-meter segments

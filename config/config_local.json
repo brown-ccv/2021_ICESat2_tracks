@@ -1,18 +1,18 @@
 {
     "paths":{
-            "work": "/Users/Shared/Projects/2021_IceSAT2_tracks/data/work/",
+            "work": "/Users/mhell/Projects/2023_ICESat2_waves/data/work/",
             "downloads": "/project/downloads/",
-            "scratch": "/Users/Shared/Projects/2021_IceSAT2_tracks/data/scratch/",
+            "scratch": "/Users/mhell/Projects/2023_ICESat2_waves/data/scratch/",
             "outputs": "/project/output/",
-            "plot": "/Users/Shared/Projects/2021_IceSAT2_tracks/plots/",
-            "processed": "/Users/Shared/Projects/2021_IceSAT2_tracks/data/processed/",
-            "analysis": "/Users/Shared/Projects/2021_IceSAT2_tracks/analysis/",
-            "local_script": "/Users/Shared/Projects/2021_IceSAT2_tracks/modules/",
-            "config": "/Users/Shared/Projects/2021_IceSAT2_tracks/config/",
-            "add_data": "/Users/Shared/Projects/2021_IceSAT2_tracks/other_data",
-            "code": "/Users/Shared/Projects/2021_IceSAT2_tracks/code/",
-            "code_1L": "/Users/Shared/Projects/2021_IceSAT2_tracks/code_barotropic/",
-            "targets": "/Users/Shared/Projects/2021_IceSAT2_tracks/targets/"
+            "plot": "/Users/mhell/Projects/2023_ICESat2_waves/plots/",
+            "processed": "/Users/mhell/Projects/2023_ICESat2_waves/data/processed/",
+            "analysis": "/Users/mhell/Projects/2023_ICESat2_waves/analysis/",
+            "local_script": "/Users/mhell/Projects/2023_ICESat2_waves/modules/",
+            "config": "/Users/mhell/Projects/2023_ICESat2_waves/config/",
+            "add_data": "/Users/mhell/Projects/2023_ICESat2_waves/other_data",
+            "code": "/Users/mhell/Projects/2023_ICESat2_waves/code/",
+            "code_1L": "/Users/mhell/Projects/2023_ICESat2_waves/code_barotropic/",
+            "targets": "/Users/mhell/Projects/2023_ICESat2_waves/targets/"
           },
 
     "server":"lime",

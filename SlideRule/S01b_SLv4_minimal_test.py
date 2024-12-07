@@ -17,7 +17,9 @@ import shapely
 
 # %% Configure SL Session #
 
-#sliderule.authenticate("brown", ps_username="mhell", ps_password="Oijaeth9quuh")
+sliderule.authenticate("brown", ps_username="mhell", ps_password="Oijaeth9quuh")
+
+#icesat2.init("slideruleearth.io")
 
 icesat2.init("slideruleearth.io", organization="brown", desired_nodes=3, time_to_live=90) #minutes
 
